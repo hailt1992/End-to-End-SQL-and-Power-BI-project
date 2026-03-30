@@ -1,0 +1,24 @@
+Fast-Food Operational Excellence & Growth
+
+Project Overview: You are a BI Consultant for a regional fast-food chain. The executive team needs a data-driven strategy to improve Net Profit and customer satisfaction. You will use the provided dataset of 1,000 transactions to deliver actionable insights.
+
+Core Requirements:
+
+Data Cleaning & ETL:
+Convert OrderDate to a proper datetime format.
+Verify NetProfit accuracy across all rows.
+
+EDA:
+Identify the highest and lowest performing StoreLocation by total revenue.
+Analyze OrderCancellation rates to identify operational bottlenecks.
+
+Customer Insights:
+Determine which MarketingChannel (e.g., Social Media, Email, TV) yields the highest AOV.
+Evaluate if the CustomerLoyaltyTier system effectively correlates with higher spending.
+
+Quality & Safety Analysis:
+Assess the relationship between HealthInspectionScore and CustomerFeedbackScore.
+
+Final Output:
+A functional dashboard in Power BI or Tableau.
+A brief summary report outlining three specific recommendations for the management team.
