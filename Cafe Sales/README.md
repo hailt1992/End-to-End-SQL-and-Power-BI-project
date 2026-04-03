@@ -1,10 +1,121 @@
 # ☕ Cafe Sales Data Cleaning & BI Analytics Project
 
 ## 📌 Project Overview
-This project focuses on cleaning and analyzing a **dirty transactional dataset** representing cafe sales. The dataset was intentionally designed with missing values, inconsistencies, and errors to simulate real-world data challenges.
 
-The goal of this project is using SQL and Power BI to demonstrate **data cleaning, exploratory data analysis (EDA), and business intelligence (BI) insights** that can drive strategic decisions for a cafe business.
+This project demonstrates an end-to-end **Business Intelligence workflow**, transforming a messy cafe sales dataset into actionable insights using **SQL for data cleaning** and **Power BI for visualization**.
 
+The dataset contains 10,000 rows of intentionally dirty data, simulating real-world challenges such as missing values, inconsistencies, and incorrect records.
+
+
+---
+## 🧹 SQL – Data Cleaning & Preparation
+
+Data cleaning was performed using SQL to ensure data quality and reliability.
+
+### 🔧 Key Cleaning Steps
+
+- Handling missing values (imputation or removal)
+- Removing or correcting invalid entries (`ERROR`, `UNKNOWN`)
+- Standardizing categorical values (Item, Payment Method, Location)
+- Ensuring consistency in numerical columns (Quantity, Price)
+- Verifying calculated fields:
+  - Unit Price
+  - Quantity
+  - Total Spent
+- Detecting and removing duplicate records
+
+---
+
+## 📊 Power BI – Data Visualization & Dashboard
+
+An interactive Power BI dashboard was built to analyze sales performance and business trends.
+
+### 📈 Key Features
+
+- Revenue and quantity analysis by:
+  - Item
+  - Time series (monthly trends)
+- KPI cards for high-level performance metrics
+- Interactive item filter (menu-based selection)
+- Created menu and added item photos
+- Buttons and bookmarks:
+  - Toggle views for **2023 Revenue Overview Report**
+ 
+---
+
+## 💡 Business Insights & Recommendations
+
+### 📉 Deal of the Month Strategy
+Promote low-performing items to boost sales:
+
+- January → Smoothie  
+- July → Juice  
+- September → Salad  
+- October → Sandwich  
+- November → Tea  
+
+---
+
+### 🎯 Business Growth Strategies
+
+#### 🛍️ Sales & Marketing
+- Introduce seasonal food and drink offerings  
+- Enhance store ambiance with seasonal decorations  
+- Strengthen brand marketing initiatives  
+
+#### 👥 Customer Engagement
+- Implement a loyalty/membership program  
+- Conduct customer satisfaction surveys  
+- Improve service quality based on feedback  
+
+#### 🏪 Operations
+- Remodel store layout if needed  
+- Expand through franchise opportunities  
+
+#### 👨‍💼 Employee Development
+- Quarterly employee training programs  
+- Encourage employee feedback and innovation  
+- Provide career growth and promotion opportunities
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **SQL** – Data cleaning & transformation  
+- **Power BI** – Dashboard creation & visualization  
+- **Excel / CSV** – Data source  
+
+---
+
+## 🚀 Key Skills Demonstrated
+
+- Data Cleaning & Data Quality Management  
+- SQL Querying & Transformation  
+- Data Visualization (Power BI)  
+- Dashboard Design & User Interaction (filters, bookmarks, buttons)  
+- Business Insight Generation  
+- Strategic Decision-Making  
+
+---
+
+## 📈 Project Outcome
+
+This project highlights the ability to:
+- Transform raw, messy data into a clean dataset  
+- Build interactive dashboards for stakeholders  
+- Translate data insights into **practical business strategies**
+
+---
+
+## 📬 Contact
+
+Feel free to connect with me for feedback, collaboration, or opportunities!
+
+Email: hailt1706@gmail.com
+Phone number: 707-515-8485 
+Linkedin: https://www.linkedin.com/in/hailt1706/
+
+---
 ---
 
 ## 📂 Dataset Information
@@ -12,7 +123,7 @@ The goal of this project is using SQL and Power BI to demonstrate **data cleanin
 - **File Name:** `dirty_cafe_sales.csv`  
 - **Rows:** 10,000  
 - **Columns:** 8  
-
+- **Source:** https://www.kaggle.com/datasets/ahmedmohamed2003/cafe-sales-dirty-data-for-cleaning-training
 ### 🧾 Column Descriptions
 
 | Column Name        | Description |
@@ -78,72 +189,10 @@ EDA was conducted to uncover patterns and insights:
 | Juice      | 3.00     |
 
 ---
+## Use Cases
 
-## 💡 Business Insights & Recommendations
+This dataset is suitable for:
 
-### 📉 Deal of the Month Strategy
-Promote low-performing items to boost sales:
+Practicing data cleaning techniques such as handling missing values, removing duplicates, and correcting invalid entries.
+Exploring EDA techniques like visualizations and summary statistics.
 
-- January → Smoothie  
-- July → Juice  
-- September → Salad  
-- October → Sandwich  
-- November → Tea  
-
----
-
-### 🎯 Business Growth Strategies
-
-#### 🛍️ Sales & Marketing
-- Introduce seasonal food and drink offerings  
-- Enhance store ambiance with seasonal decorations  
-- Strengthen brand marketing initiatives  
-
-#### 👥 Customer Engagement
-- Implement a loyalty/membership program  
-- Conduct customer satisfaction surveys  
-- Improve service quality based on feedback  
-
-#### 🏪 Operations
-- Remodel store layout if needed  
-- Expand through franchise opportunities  
-
-#### 👨‍💼 Employee Development
-- Quarterly employee training programs  
-- Encourage employee feedback and innovation  
-- Provide career growth and promotion opportunities  
-
----
-
-## 🛠️ Tools & Technologies
-
-- Python (Pandas, NumPy)
-- Matplotlib / Seaborn / Power BI / Tableau
-- Data Cleaning & Transformation Techniques
-- Business Intelligence & Reporting
-
----
-
-## 🚀 Key Skills Demonstrated
-
-- Data Cleaning & Wrangling  
-- Exploratory Data Analysis (EDA)  
-- Data Validation & Quality Assurance  
-- Business Insight Generation  
-- Strategic Decision-Making  
-
----
-
-## 📈 Project Outcome
-
-This project demonstrates how **messy, real-world data** can be transformed into **actionable insights** that support business growth, improve customer experience, and optimize operations.
-
----
-
-## 📬 Contact
-
-Feel free to connect with me for feedback, collaboration, or opportunities!
-
-Email: hailt1706@gmail.com
-Phone number: 707-515-8485 
-Linkedin: https://www.linkedin.com/in/hailt1706/
