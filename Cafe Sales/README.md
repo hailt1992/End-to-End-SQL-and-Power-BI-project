@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 This project focuses on cleaning and analyzing a **dirty transactional dataset** representing cafe sales. The dataset was intentionally designed with missing values, inconsistencies, and errors to simulate real-world data challenges.
 
-The goal of this project is to demonstrate **data cleaning, exploratory data analysis (EDA), and business intelligence (BI) insights** that can drive strategic decisions for a cafe business.
+The goal of this project is using SQL and Power BI to demonstrate **data cleaning, exploratory data analysis (EDA), and business intelligence (BI) insights** that can drive strategic decisions for a cafe business.
 
 ---
 
